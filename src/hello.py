@@ -10,5 +10,7 @@ headers = {
 
 response_html = requests.get(url_html, headers=headers)
 
-# 印出抓到的 HTML文字
+# fetch html text
 print(response_html.text)
+
+print("Hello World")
