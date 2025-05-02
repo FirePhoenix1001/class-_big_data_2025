@@ -12,3 +12,6 @@ response_html = requests.get(url_html, headers=headers)
 
 # 印出抓到的 HTML文字
 print(response_html.text)
+
+
+
