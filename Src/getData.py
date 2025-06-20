@@ -26,6 +26,36 @@ try:
 except Exception as e:
     print(f"資料庫連線失敗: {e}")
     exit(1)
+    
+    
+    
+    
+    
+    
+cur.execute("DROP TABLE IF EXISTS youbike_stations")
+
+# 重新建立 youbike_stations 資料表，並使用 sno + mday 作為唯一鍵
+cur.execute("""
+    CREATE TABLE youbike_stations (
+        id SERIAL PRIMARY KEY,  -- 建議加入流水號主鍵
+        sno VARCHAR(20),
+        sna VARCHAR(100),
+        sarea VARCHAR(50),
+        mday TIMESTAMP,
+        ar VARCHAR(255),
+        srcUpdateTime TIMESTAMP,
+        infoTime TIMESTAMP,
+        total INT,
+        available_rent_bikes INT,
+        available_return_bikes INT,
+        UNIQUE(sno, mday)  -- 加入複合唯一鍵
+    );
+""")
+    
+    
+    
+    
+    
 
 # 3. 插入語句（避免重複）
 insert_query = """
