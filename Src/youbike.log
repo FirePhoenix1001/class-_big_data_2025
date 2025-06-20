@@ -1,0 +1,449 @@
+the input device is not a TTY
+the input device is not a TTY
+the input device is not a TTY
+本次資料成功處理完畢
+本次資料成功處理完畢
+本次資料成功處理完畢
+本次資料成功處理完畢
+本次資料成功處理完畢
+本次資料成功處理完畢
+本次資料成功處理完畢
+本次資料成功處理完畢
+本次資料成功處理完畢
+本次資料成功處理完畢
+本次資料成功處理完畢
+本次資料成功處理完畢
+本次資料成功處理完畢
+本次資料成功處理完畢
+本次資料成功處理完畢
+本次資料成功處理完畢
+本次資料成功處理完畢
+本次資料成功處理完畢
+本次資料成功處理完畢
+[2025-06-20 14:04:01] Start cron job
+本次資料成功處理完畢
+[2025-06-20 14:05:01] Start cron job
+本次資料成功處理完畢
+[2025-06-20 14:06:01] Start cron job
+本次資料成功處理完畢
+[2025-06-20 14:07:01] 本次資料成功處理完畢
+[2025-06-20 14:08:01] 本次資料成功處理完畢
+[2025-06-20 14:09:01] 本次資料成功處理完畢
+[2025-06-20 14:10:01] 本次資料成功處理完畢
+[2025-06-20 14:11:01] 本次資料成功處理完畢
+[2025-06-20 14:12:02] 本次資料成功處理完畢
+[2025-06-20 14:13:01] 本次資料成功處理完畢
+[2025-06-20 14:14:01] 本次資料成功處理完畢
+[2025-06-20 14:15:01] 本次資料成功處理完畢
+[2025-06-20 14:16:01] 本次資料成功處理完畢
+[2025-06-20 14:17:01] 本次資料成功處理完畢
+[2025-06-20 14:18:01] 本次資料成功處理完畢
+[2025-06-20 14:19:02] 本次資料成功處理完畢
+[2025-06-20 14:20:01] 本次資料成功處理完畢
+[2025-06-20 14:21:01] 本次資料成功處理完畢
+[2025-06-20 14:22:01] 本次資料成功處理完畢
+[2025-06-20 14:23:01] 本次資料成功處理完畢
+[2025-06-20 14:24:01] 本次資料成功處理完畢
+[2025-06-20 14:25:01] 本次資料成功處理完畢
+[2025-06-20 14:26:01] 本次資料成功處理完畢
+[2025-06-20 14:27:01] Docker image nutn-my-python not found. Building...
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 118B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.8
+#2 DONE 2.3s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/4] FROM docker.io/library/python:3.8@sha256:d411270700143fa2683cc8264d9fa5d3279fd3b6afff62ae81ea2f9d070e390c
+#4 DONE 0.0s
+
+#5 [2/4] WORKDIR /app
+#5 CACHED
+
+#6 [internal] load build context
+#6 transferring context: 6.63kB done
+#6 DONE 0.1s
+
+#7 [3/4] RUN pip install requests psycopg2 pandas
+#7 7.197 Collecting requests
+#7 8.245   Downloading requests-2.32.4-py3-none-any.whl (64 kB)
+#7 8.580      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 64.8/64.8 kB 168.8 kB/s eta 0:00:00
+#7 9.167 Collecting psycopg2
+#7 9.329   Downloading psycopg2-2.9.10.tar.gz (385 kB)
+#7 9.752      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 385.7/385.7 kB 956.4 kB/s eta 0:00:00
+#7 9.933   Preparing metadata (setup.py): started
+#7 11.71   Preparing metadata (setup.py): finished with status 'done'
+#7 12.96 Collecting pandas
+#7 13.07   Downloading pandas-2.0.3-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (12.4 MB)
+#7 15.51      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.4/12.4 MB 5.1 MB/s eta 0:00:00
+#7 15.91 Collecting urllib3<3,>=1.21.1
+#7 16.02   Downloading urllib3-2.2.3-py3-none-any.whl (126 kB)
+#7 16.04      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 126.3/126.3 kB 10.8 MB/s eta 0:00:00
+#7 16.86 Collecting charset_normalizer<4,>=2
+#7 16.96   Downloading charset_normalizer-3.4.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (147 kB)
+#7 17.00      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 147.4/147.4 kB 4.8 MB/s eta 0:00:00
+#7 17.15 Collecting idna<4,>=2.5
+#7 17.25   Downloading idna-3.10-py3-none-any.whl (70 kB)
+#7 17.26      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 70.4/70.4 kB 6.8 MB/s eta 0:00:00
+#7 17.46 Collecting certifi>=2017.4.17
+#7 17.57   Downloading certifi-2025.6.15-py3-none-any.whl (157 kB)
+#7 17.60      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 157.7/157.7 kB 10.0 MB/s eta 0:00:00
+#7 19.81 Collecting numpy>=1.20.3
+#7 19.91   Downloading numpy-1.24.4-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (17.3 MB)
+#7 21.59      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 17.3/17.3 MB 9.2 MB/s eta 0:00:00
+#7 21.87 Collecting tzdata>=2022.1
+#7 21.98   Downloading tzdata-2025.2-py2.py3-none-any.whl (347 kB)
+#7 22.03      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 347.8/347.8 kB 7.4 MB/s eta 0:00:00
+#7 22.53 Collecting pytz>=2020.1
+#7 22.78   Downloading pytz-2025.2-py2.py3-none-any.whl (509 kB)
+#7 22.84      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 509.2/509.2 kB 9.3 MB/s eta 0:00:00
+#7 23.05 Collecting python-dateutil>=2.8.2
+#7 23.16   Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+#7 23.24      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 229.9/229.9 kB 4.4 MB/s eta 0:00:00
+#7 23.66 Collecting six>=1.5
+#7 23.97   Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+#7 24.04 Building wheels for collected packages: psycopg2
+#7 24.04   Building wheel for psycopg2 (setup.py): started
+#7 48.15   Building wheel for psycopg2 (setup.py): finished with status 'done'
+#7 48.15   Created wheel for psycopg2: filename=psycopg2-2.9.10-cp38-cp38-linux_x86_64.whl size=485114 sha256=88ce33c66e51ab7b2f227a2e6b55dc5d9599aa8a4013a609f646908f3ca9e738
+#7 48.15   Stored in directory: /root/.cache/pip/wheels/85/b7/48/d6ffc48322fa70ef973e9ca95a5e012f2d71efadd88d847865
+#7 48.16 Successfully built psycopg2
+#7 48.69 Installing collected packages: pytz, urllib3, tzdata, six, psycopg2, numpy, idna, charset_normalizer, certifi, requests, python-dateutil, pandas
+[2025-06-20 14:28:01] Docker image nutn-my-python not found. Building...
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 118B done
+#1 DONE 0.1s
+
+#2 [internal] load metadata for docker.io/library/python:3.8
+#2 DONE 1.4s
+
+#3 [1/4] FROM docker.io/library/python:3.8@sha256:d411270700143fa2683cc8264d9fa5d3279fd3b6afff62ae81ea2f9d070e390c
+#3 DONE 0.0s
+
+#4 [2/4] WORKDIR /app
+#4 CACHED
+
+#5 [internal] load .dockerignore
+#5 transferring context: 2B done
+#5 DONE 0.1s
+
+#6 [3/4] RUN pip install requests psycopg2 pandas
+#6 7.197 Collecting requests
+#6 8.245   Downloading requests-2.32.4-py3-none-any.whl (64 kB)
+#6 8.580      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 64.8/64.8 kB 168.8 kB/s eta 0:00:00
+#6 9.167 Collecting psycopg2
+#6 9.329   Downloading psycopg2-2.9.10.tar.gz (385 kB)
+#6 9.752      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 385.7/385.7 kB 956.4 kB/s eta 0:00:00
+#6 9.933   Preparing metadata (setup.py): started
+#6 11.71   Preparing metadata (setup.py): finished with status 'done'
+#6 12.96 Collecting pandas
+#6 13.07   Downloading pandas-2.0.3-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (12.4 MB)
+#6 15.51      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.4/12.4 MB 5.1 MB/s eta 0:00:00
+#6 15.91 Collecting urllib3<3,>=1.21.1
+#6 16.02   Downloading urllib3-2.2.3-py3-none-any.whl (126 kB)
+#6 16.04      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 126.3/126.3 kB 10.8 MB/s eta 0:00:00
+#6 16.86 Collecting charset_normalizer<4,>=2
+#6 16.96   Downloading charset_normalizer-3.4.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (147 kB)
+#6 17.00      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 147.4/147.4 kB 4.8 MB/s eta 0:00:00
+#6 17.15 Collecting idna<4,>=2.5
+#6 17.25   Downloading idna-3.10-py3-none-any.whl (70 kB)
+#6 17.26      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 70.4/70.4 kB 6.8 MB/s eta 0:00:00
+#6 17.46 Collecting certifi>=2017.4.17
+#6 17.57   Downloading certifi-2025.6.15-py3-none-any.whl (157 kB)
+#6 17.60      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 157.7/157.7 kB 10.0 MB/s eta 0:00:00
+#6 19.81 Collecting numpy>=1.20.3
+#6 19.91   Downloading numpy-1.24.4-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (17.3 MB)
+#6 21.59      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 17.3/17.3 MB 9.2 MB/s eta 0:00:00
+#6 21.87 Collecting tzdata>=2022.1
+#6 21.98   Downloading tzdata-2025.2-py2.py3-none-any.whl (347 kB)
+#6 22.03      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 347.8/347.8 kB 7.4 MB/s eta 0:00:00
+#6 22.53 Collecting pytz>=2020.1
+#6 22.78   Downloading pytz-2025.2-py2.py3-none-any.whl (509 kB)
+#6 22.84      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 509.2/509.2 kB 9.3 MB/s eta 0:00:00
+#6 23.05 Collecting python-dateutil>=2.8.2
+#6 23.16   Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+#6 23.24      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 229.9/229.9 kB 4.4 MB/s eta 0:00:00
+#6 23.66 Collecting six>=1.5
+#6 23.97   Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+#6 24.04 Building wheels for collected packages: psycopg2
+#6 24.04   Building wheel for psycopg2 (setup.py): started
+#6 48.15   Building wheel for psycopg2 (setup.py): finished with status 'done'
+#6 48.15   Created wheel for psycopg2: filename=psycopg2-2.9.10-cp38-cp38-linux_x86_64.whl size=485114 sha256=88ce33c66e51ab7b2f227a2e6b55dc5d9599aa8a4013a609f646908f3ca9e738
+#6 48.15   Stored in directory: /root/.cache/pip/wheels/85/b7/48/d6ffc48322fa70ef973e9ca95a5e012f2d71efadd88d847865
+#6 48.16 Successfully built psycopg2
+#6 48.69 Installing collected packages: pytz, urllib3, tzdata, six, psycopg2, numpy, idna, charset_normalizer, certifi, requests, python-dateutil, pandas
+#6 ...
+
+#7 [internal] load build context
+#7 transferring context: 15.25kB done
+#7 DONE 0.1s
+
+#6 [3/4] RUN pip install requests psycopg2 pandas
+#6 69.83 Successfully installed certifi-2025.6.15 charset_normalizer-3.4.2 idna-3.10 numpy-1.24.4 pandas-2.0.3 psycopg2-2.9.10 python-dateutil-2.9.0.post0 pytz-2025.2 requests-2.32.4 six-1.17.0 tzdata-2025.2 urllib3-2.2.3
+#7 69.83 Successfully installed certifi-2025.6.15 charset_normalizer-3.4.2 idna-3.10 numpy-1.24.4 pandas-2.0.3 psycopg2-2.9.10 python-dateutil-2.9.0.post0 pytz-2025.2 requests-2.32.4 six-1.17.0 tzdata-2025.2 urllib3-2.2.3
+#6 69.83 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+#7 69.83 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+#6 70.69 
+#6 70.69 [notice] A new release of pip is available: 23.0.1 -> 25.0.1
+#6 70.69 [notice] To update, run: pip install --upgrade pip
+#7 70.69 
+#7 70.69 [notice] A new release of pip is available: 23.0.1 -> 25.0.1
+#7 70.69 [notice] To update, run: pip install --upgrade pip
+#6 DONE 71.7s
+#7 DONE 71.7s
+
+#8 [4/4] COPY . .
+#8 DONE 0.1s
+
+#8 [4/4] COPY . .
+#8 DONE 0.1s
+
+#9 exporting to image
+#9 exporting layers
+
+#9 exporting to image
+#9 exporting layers
+#9 exporting layers 2.8s done
+#9 exporting layers 2.8s done
+#9 writing image sha256:bf19a1b7b6ae285341a86ce08e6c7af32cce3fd7cc1639a85e24f9b7dd2104b0 0.0s done
+#9 naming to docker.io/library/nutn-my-python 0.0s done
+#9 DONE 2.9s
+#9 writing image sha256:e63031ac4e4dc020bb83308106eb04e1f6a55694f361765ea91618579313c88d done
+#9 naming to docker.io/library/nutn-my-python 0.0s done
+#9 DONE 2.9s
+本次資料成功處理完畢
+本次資料成功處理完畢
+[2025-06-20 14:29:01] 本次資料成功處理完畢
+[2025-06-20 14:30:01] 本次資料成功處理完畢
+[2025-06-20 14:31:01] 本次資料成功處理完畢
+[2025-06-20 14:32:01] 本次資料成功處理完畢
+[2025-06-20 14:33:01] 本次資料成功處理完畢
+[2025-06-20 14:34:02] 本次資料成功處理完畢
+[2025-06-20 14:35:01] 本次資料成功處理完畢
+[2025-06-20 14:36:01] 本次資料成功處理完畢
+[2025-06-20 14:37:01] 本次資料成功處理完畢
+[2025-06-20 14:38:01] 本次資料成功處理完畢
+[2025-06-20 14:39:01] 本次資料成功處理完畢
+[2025-06-20 14:40:01] 本次資料成功處理完畢
+[2025-06-20 14:41:01] Docker image nutn-my-python not found. Building...
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 123B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.8
+#2 DONE 0.8s
+
+#3 [1/4] FROM docker.io/library/python:3.8@sha256:d411270700143fa2683cc8264d9fa5d3279fd3b6afff62ae81ea2f9d070e390c
+#3 DONE 0.0s
+
+#4 [2/4] WORKDIR /app
+#4 CACHED
+
+#5 [internal] load .dockerignore
+#5 transferring context: 2B done
+#5 DONE 0.0s
+
+#6 [internal] load build context
+#6 transferring context: 15.36kB done
+#6 DONE 0.0s
+
+#7 [3/4] RUN pip install requests psycopg2 SQLAlchemy
+#7 6.139 Collecting requests
+#7 6.615   Downloading requests-2.32.4-py3-none-any.whl (64 kB)
+#7 6.728      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 64.8/64.8 kB 581.8 kB/s eta 0:00:00
+#7 7.210 Collecting psycopg2
+#7 7.306   Downloading psycopg2-2.9.10.tar.gz (385 kB)
+#7 7.521      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 385.7/385.7 kB 1.9 MB/s eta 0:00:00
+#7 7.701   Preparing metadata (setup.py): started
+#7 9.029   Preparing metadata (setup.py): finished with status 'done'
+#7 12.40 Collecting SQLAlchemy
+#7 12.50   Downloading sqlalchemy-2.0.41-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.2 MB)
+#7 13.26      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.2/3.2 MB 4.3 MB/s eta 0:00:00
+#7 14.09 Collecting charset_normalizer<4,>=2
+#7 14.19   Downloading charset_normalizer-3.4.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (147 kB)
+#7 14.23      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 147.4/147.4 kB 5.9 MB/s eta 0:00:00
+#7 14.44 Collecting certifi>=2017.4.17
+#7 14.54   Downloading certifi-2025.6.15-py3-none-any.whl (157 kB)
+#7 14.57      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 157.7/157.7 kB 5.9 MB/s eta 0:00:00
+#7 14.71 Collecting idna<4,>=2.5
+#7 14.81   Downloading idna-3.10-py3-none-any.whl (70 kB)
+#7 14.83      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 70.4/70.4 kB 4.0 MB/s eta 0:00:00
+#7 15.21 Collecting urllib3<3,>=1.21.1
+#7 15.29   Downloading urllib3-2.2.3-py3-none-any.whl (126 kB)
+#7 15.33      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 126.3/126.3 kB 7.1 MB/s eta 0:00:00
+#7 15.80 Collecting typing-extensions>=4.6.0
+#7 15.90   Downloading typing_extensions-4.13.2-py3-none-any.whl (45 kB)
+#7 15.93      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 45.8/45.8 kB 1.4 MB/s eta 0:00:00
+#7 17.40 Collecting greenlet>=1
+#7 17.49   Downloading greenlet-3.1.1-cp38-cp38-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (605 kB)
+#7 17.56      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 606.0/606.0 kB 8.5 MB/s eta 0:00:00
+#7 17.66 Building wheels for collected packages: psycopg2
+#7 17.67   Building wheel for psycopg2 (setup.py): started
+#7 42.58   Building wheel for psycopg2 (setup.py): finished with status 'done'
+#7 42.58   Created wheel for psycopg2: filename=psycopg2-2.9.10-cp38-cp38-linux_x86_64.whl size=485108 sha256=6399b8612a07343ef9a53edc975a93a2237b7843dd1b659a4c9dda606429c28d
+#7 42.59   Stored in directory: /root/.cache/pip/wheels/85/b7/48/d6ffc48322fa70ef973e9ca95a5e012f2d71efadd88d847865
+#7 42.60 Successfully built psycopg2
+#7 43.03 Installing collected packages: urllib3, typing-extensions, psycopg2, idna, greenlet, charset_normalizer, certifi, SQLAlchemy, requests
+#7 47.12 Successfully installed SQLAlchemy-2.0.41 certifi-2025.6.15 charset_normalizer-3.4.2 greenlet-3.1.1 idna-3.10 psycopg2-2.9.10 requests-2.32.4 typing-extensions-4.13.2 urllib3-2.2.3
+#7 47.13 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+#7 47.92 
+#7 47.92 [notice] A new release of pip is available: 23.0.1 -> 25.0.1
+#7 47.92 [notice] To update, run: pip install --upgrade pip
+#7 DONE 48.5s
+
+#8 [4/4] COPY . .
+#8 DONE 0.2s
+
+#9 exporting to image
+#9 exporting layers
+#9 exporting layers 0.8s done
+#9 writing image sha256:ee97d8816f5ca9f175cce634b55365db039be89c5873ba65e9b6505e6751f83d done
+#9 naming to docker.io/library/nutn-my-python 0.0s done
+#9 DONE 0.9s
+本次資料成功處理完畢
+[2025-06-20 14:42:01] 本次資料成功處理完畢
+[2025-06-20 14:43:01] Docker image nutn-my-python not found. Building...
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 129B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.8
+#2 DONE 1.0s
+
+#3 [1/4] FROM docker.io/library/python:3.8@sha256:d411270700143fa2683cc8264d9fa5d3279fd3b6afff62ae81ea2f9d070e390c
+#3 DONE 0.0s
+
+#4 [2/4] WORKDIR /app
+#4 CACHED
+
+#5 [internal] load .dockerignore
+#5 transferring context: 2B done
+#5 DONE 0.0s
+
+#6 [internal] load build context
+#6 transferring context: 19.17kB done
+#6 DONE 0.0s
+
+#7 [3/4] RUN pip install requests psycopg2 SQLAlchemy pandas
+#7 6.052 Collecting requests
+#7 6.896   Downloading requests-2.32.4-py3-none-any.whl (64 kB)
+#7 7.007      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 64.8/64.8 kB 573.0 kB/s eta 0:00:00
+#7 7.477 Collecting psycopg2
+#7 7.579   Downloading psycopg2-2.9.10.tar.gz (385 kB)
+#7 7.774      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 385.7/385.7 kB 2.0 MB/s eta 0:00:00
+#7 7.951   Preparing metadata (setup.py): started
+#7 9.257   Preparing metadata (setup.py): finished with status 'done'
+#7 12.14 Collecting SQLAlchemy
+#7 12.25   Downloading sqlalchemy-2.0.41-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.2 MB)
+#7 12.65      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.2/3.2 MB 8.3 MB/s eta 0:00:00
+#7 14.03 Collecting pandas
+#7 14.26   Downloading pandas-2.0.3-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (12.4 MB)
+#7 16.61      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.4/12.4 MB 4.8 MB/s eta 0:00:00
+#7 17.14 Collecting urllib3<3,>=1.21.1
+#7 17.24   Downloading urllib3-2.2.3-py3-none-any.whl (126 kB)
+#7 17.29      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 126.3/126.3 kB 5.9 MB/s eta 0:00:00
+#7 17.52 Collecting idna<4,>=2.5
+#7 17.63   Downloading idna-3.10-py3-none-any.whl (70 kB)
+#7 17.66      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 70.4/70.4 kB 6.2 MB/s eta 0:00:00
+#7 17.88 Collecting certifi>=2017.4.17
+#7 18.02   Downloading certifi-2025.6.15-py3-none-any.whl (157 kB)
+#7 18.09      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 157.7/157.7 kB 3.0 MB/s eta 0:00:00
+#7 18.84 Collecting charset_normalizer<4,>=2
+#7 18.96   Downloading charset_normalizer-3.4.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (147 kB)
+#7 18.98      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 147.4/147.4 kB 10.4 MB/s eta 0:00:00
+#7 19.36 Collecting typing-extensions>=4.6.0
+#7 19.46   Downloading typing_extensions-4.13.2-py3-none-any.whl (45 kB)
+#7 19.48      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 45.8/45.8 kB 3.7 MB/s eta 0:00:00
+#7 20.97 Collecting greenlet>=1
+#7 21.09   Downloading greenlet-3.1.1-cp38-cp38-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (605 kB)
+#7 21.19      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 606.0/606.0 kB 6.9 MB/s eta 0:00:00
+#7 21.65 Collecting tzdata>=2022.1
+#7 21.85   Downloading tzdata-2025.2-py2.py3-none-any.whl (347 kB)
+#7 22.05      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 347.8/347.8 kB 1.9 MB/s eta 0:00:00
+#7 22.60 Collecting pytz>=2020.1
+#7 22.82   Downloading pytz-2025.2-py2.py3-none-any.whl (509 kB)
+#7 22.96      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 509.2/509.2 kB 3.6 MB/s eta 0:00:00
+#7 25.17 Collecting numpy>=1.20.3
+#7 25.27   Downloading numpy-1.24.4-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (17.3 MB)
+#7 28.19      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 17.3/17.3 MB 4.8 MB/s eta 0:00:00
+#7 28.59 Collecting python-dateutil>=2.8.2
+#7 28.70   Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+#7 28.75      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 229.9/229.9 kB 5.4 MB/s eta 0:00:00
+#7 29.03 Collecting six>=1.5
+#7 29.13   Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+#7 29.24 Building wheels for collected packages: psycopg2
+#7 29.24   Building wheel for psycopg2 (setup.py): started
+#7 54.65   Building wheel for psycopg2 (setup.py): finished with status 'done'
+#7 54.65   Created wheel for psycopg2: filename=psycopg2-2.9.10-cp38-cp38-linux_x86_64.whl size=485107 sha256=e9cba4535b7a357eb718367c632997670f370cc588fdb3d69540e11ffaad32b5
+#7 54.65   Stored in directory: /root/.cache/pip/wheels/85/b7/48/d6ffc48322fa70ef973e9ca95a5e012f2d71efadd88d847865
+#7 54.65 Successfully built psycopg2
+#7 55.45 Installing collected packages: pytz, urllib3, tzdata, typing-extensions, six, psycopg2, numpy, idna, greenlet, charset_normalizer, certifi, SQLAlchemy, requests, python-dateutil, pandas
+#7 79.84 Successfully installed SQLAlchemy-2.0.41 certifi-2025.6.15 charset_normalizer-3.4.2 greenlet-3.1.1 idna-3.10 numpy-1.24.4 pandas-2.0.3 psycopg2-2.9.10 python-dateutil-2.9.0.post0 pytz-2025.2 requests-2.32.4 six-1.17.0 typing-extensions-4.13.2 tzdata-2025.2 urllib3-2.2.3
+#7 79.85 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+#7 80.50 
+#7 80.50 [notice] A new release of pip is available: 23.0.1 -> 25.0.1
+#7 80.50 [notice] To update, run: pip install --upgrade pip
+#7 DONE 81.6s
+
+#8 [4/4] COPY . .
+#8 DONE 0.1s
+
+#9 exporting to image
+#9 exporting layers
+#9 exporting layers 3.2s done
+#9 writing image sha256:3be39177b014076bf8652c447524fdeaa7e4b037a2e0faf50afca564db301858 0.0s done
+#9 naming to docker.io/library/nutn-my-python 0.0s done
+#9 DONE 3.3s
+本次資料成功處理完畢
+[2025-06-20 14:44:01] 本次資料成功處理完畢
+[2025-06-20 14:45:01] 本次資料成功處理完畢
+[2025-06-20 14:46:01] 本次資料成功處理完畢
+[2025-06-20 14:47:01] 本次資料成功處理完畢
+[2025-06-20 14:48:01] 本次資料成功處理完畢
+[2025-06-20 14:49:01] 本次資料成功處理完畢
+[2025-06-20 14:50:01] 本次資料成功處理完畢
+[2025-06-20 14:51:01] 本次資料成功處理完畢
+[2025-06-20 14:52:01] 本次資料成功處理完畢
+[2025-06-20 14:53:01] 本次資料成功處理完畢
+[2025-06-20 14:54:01] 本次資料成功處理完畢
+[2025-06-20 14:55:01] 本次資料成功處理完畢
+[2025-06-20 14:56:01] 本次資料成功處理完畢
+[2025-06-20 14:57:01] 本次資料成功處理完畢
+[2025-06-20 14:58:01] 本次資料成功處理完畢
+[2025-06-20 14:59:01] 本次資料成功處理完畢
+[2025-06-20 15:00:01] 本次資料成功處理完畢
+[2025-06-20 15:01:01] 本次資料成功處理完畢
+[2025-06-20 15:02:14] 本次資料成功處理完畢
+[2025-06-20 15:03:02] 本次資料成功處理完畢
+[2025-06-20 15:04:01] 本次資料成功處理完畢
+[2025-06-20 15:05:01] 本次資料成功處理完畢
+[2025-06-20 15:06:01] 本次資料成功處理完畢
+[2025-06-20 15:07:01] 本次資料成功處理完畢
+[2025-06-20 15:08:01] 本次資料成功處理完畢
+[2025-06-20 15:09:01] 本次資料成功處理完畢
+[2025-06-20 15:10:02] 本次資料成功處理完畢
+[2025-06-20 15:11:01] 本次資料成功處理完畢
+[2025-06-20 15:12:01] 本次資料成功處理完畢
+[2025-06-20 15:13:01] 本次資料成功處理完畢
+[2025-06-20 15:14:01] 本次資料成功處理完畢
+[2025-06-20 15:15:01] 本次資料成功處理完畢
+[2025-06-20 15:16:01] 本次資料成功處理完畢
+[2025-06-20 15:17:01] 本次資料成功處理完畢
+[2025-06-20 15:18:01] 本次資料成功處理完畢
+[2025-06-20 15:19:01] 本次資料成功處理完畢
+[2025-06-20 15:20:02] 本次資料成功處理完畢
+[2025-06-20 15:21:05] 本次資料成功處理完畢
+[2025-06-20 15:22:01] 本次資料成功處理完畢
+[2025-06-20 15:23:01] 本次資料成功處理完畢

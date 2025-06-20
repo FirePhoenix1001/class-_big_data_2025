@@ -1,0 +1,25 @@
+docker rmi nutn-my-python                               //刪除docker image
+docker build -t nutn-my-python ../Docker/Python/.       //重新建立docker image
+
+sudo systemctl stop postgresql                          //SQL埠號衝突
+
+
+SELECT COUNT(*) FROM youbike_stations;                  //顯示資料數
+
+
+                                                        //顯示後10筆資料
+SELECT                                                  
+    ar,
+    mday,
+    srcUpdateTime,
+    infoTime,
+    total,
+    available_rent_bikes,
+    available_return_bikes
+FROM (
+    SELECT *
+    FROM youbike_stations
+    ORDER BY mday DESC
+    LIMIT 10
+) AS last_10
+ORDER BY mday ASC;

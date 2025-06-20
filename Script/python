@@ -15,6 +15,6 @@ if [ ! -f "$execute_file" ]; then
 	exit 1
 fi
 
-docker run -it --rm -v "$(pwd):/app" $IMAGE_NAME python /app/$execute_file
+docker run --rm -v "$(pwd):/app" $IMAGE_NAME python /app/$execute_file
 
 # ../Script/python {name}
